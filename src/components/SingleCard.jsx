@@ -1,5 +1,7 @@
 import "./SingleCard.css";
 
+import back from "/img/back.png";
+
 export default function SingleCard({ card, handleChoice, flipped, disabled }) {
   const handleClick = () => {
     if (!disabled) {
@@ -21,7 +23,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
           height={250}
           width={50}
           className="back"
-          src="/img/back.PNG"
+          src={back}
           alt="cover"
           onClick={handleClick}
         />

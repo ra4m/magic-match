@@ -4,13 +4,20 @@ import SingleCard from "./components/SingleCard";
 
 import "./App.css";
 
+import pizza from "/img/pizza.png";
+import beer from "/img/beer.png";
+import clock from "/img/clock.png";
+import icecream from "/img/icecream.png";
+import paste from "/img/paste.png";
+import pencil from "/img/pencil.png";
+
 const cardImages = [
-  { src: "/img/beer.PNG", matched: false },
-  { src: "/img/clock.PNG", matched: false },
-  { src: "/img/pencil.PNG", matched: false },
-  { src: "/img/paste.PNG", matched: false },
-  { src: "/img/pizza.PNG", matched: false },
-  { src: "/img/icecream.PNG", matched: false },
+  { src: pizza, matched: false },
+  { src: beer, matched: false },
+  { src: clock, matched: false },
+  { src: icecream, matched: false },
+  { src: paste, matched: false },
+  { src: pencil, matched: false },
 ];
 
 function App() {
